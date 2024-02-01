@@ -1,5 +1,5 @@
 body {
-    background-color: orchid;
+    background-color: rgb(83, 234, 237);
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
 }
 
 p {
-    color: blueviolet;
+    color: rgb(5, 84, 82);
     font-family: Verdana;
     font-size: medium;
 }
