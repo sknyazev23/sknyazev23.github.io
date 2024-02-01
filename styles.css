@@ -1,0 +1,13 @@
+body {
+    background-color: orchid;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: blueviolet;
+    font-family: Verdana;
+    font-size: medium;
+}
