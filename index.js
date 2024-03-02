@@ -1,4 +1,5 @@
-document.getElementById('demoTime').innerHTML = new Date();
+const currentDate = new Date();
+document.getElementById('demoTime').innerHTML = `Visit time:  ${currentDate}`;
 
 let count = localStorage.getItem('visitorCount');
 if (!count) {
@@ -6,4 +7,4 @@ if (!count) {
 }
 count++;
 localStorage.setItem('visitorCount', count);
-document.getElementById('visitorCount').innerHTML = `Number of visitors: ${count}`;
+document.getElementById('visitorCount').innerHTML = `Number of visitors:  ${count}`;
